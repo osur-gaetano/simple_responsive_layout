@@ -1,0 +1,166 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* padding: 0; */
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 3rem;
+}
+ul{
+    padding: 0;
+}
+h1,
+h2,
+.hero__text--white{
+    color: #fff;
+}
+
+h3,
+h4,
+.hero__text--brown{
+    color: #A59678;
+}
+p{
+    font-family: "Montserrat", sans-serif;
+
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 900;
+    background-color: #A59678;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.btn:hover,
+.btn:focus,
+a:hover,
+a:focus,
+a:active {
+    opacity: .75;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #2E323F;
+    padding: 1.7em 0;
+    text-align: center;    
+}
+
+.hero{
+    background-color: #3B4050;
+    padding: 100px 0;
+}
+
+.hero__two{
+    background-color: #6b6e75;
+    padding: 70PX 0;
+}
+
+.main__left{
+    padding: 6em;
+}
+
+.main__right--items{
+    background-color: #3B4050;
+    text-align: center;
+    padding: .7em;
+    color: #fff;
+}
+
+.main__right--items + .main__right--items{
+    margin: .85em 0;
+}
+
+.btn__hero{
+    display: block;
+    padding: .25em  .95em;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+footer{
+    background-color: #2E323F;
+    padding: 1.7em 0;
+    text-align: center; 
+    color: #fff;
+}
+
+.nav{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 5.625rem;
+    font-weight: 700;
+}
+
+.hero__text--white{
+    font-size: 1.5rem;
+    font-weight:200;
+    border: none;
+}
+
+.hero__two h3{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.9rem;
+    font-weight: 700;
+
+}
+
+.hero__two p,
+.main__left p{
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+
+}
+
+.main__left h3,
+.main__right h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size:2.5rem;
+    font-weight: 700;
+
+}
+
+
+.footer__heading{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.7rem;
+    font-weight: 700;
+}
+
+.footer h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
