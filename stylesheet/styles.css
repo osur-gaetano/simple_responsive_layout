@@ -164,3 +164,44 @@ h1{
     font-weight: 700;
 
 }
+@media (min-width:700px) {
+    .nav__list--item{
+        display: flex;
+        align-items: center;
+        /* margin-left: .75em; */
+    }
+
+    li{
+        margin-left: .75em;
+    }
+    
+    .row{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .col{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .hero__two--item{
+        margin-left:2em ;
+    }
+    .main__right--items + .main__right--items{
+        margin-left: 2em;
+    }
+
+    .footer__left{
+        width: 37%;
+    }
+
+    .footer__right{
+        display: flex;
+        width: 55%;
+    }
+
+    
+    
+}
