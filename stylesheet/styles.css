@@ -1,5 +1,6 @@
 *, *::before, *::after{
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
@@ -81,9 +82,10 @@ header{
 .hero__two{
     background-color: #6b6e75;
     padding: 70PX 0;
+    text-align: center;
 }
 
-.main__left{
+.main{
     padding: 6em 0;
 }
 
@@ -168,7 +170,6 @@ h1{
     .nav__list--item{
         display: flex;
         align-items: center;
-        /* margin-left: .75em; */
     }
 
     li{
@@ -179,6 +180,7 @@ h1{
         display:flex;
         justify-content: space-between;
         align-items: center;
+        gap: 2em;
     }
     
     .col{
@@ -189,9 +191,6 @@ h1{
     .hero__two--item{
         margin-left:2em ;
     }
-    .main__right--items + .main__right--items{
-        margin-left: 2em;
-    }
 
     .footer__left{
         width: 37%;
@@ -200,8 +199,22 @@ h1{
     .footer__right{
         display: flex;
         width: 55%;
+    }   
+}
+
+@media (min-width:1200px) {
+    .col-grid{
+        flex-direction: row;
+    }
+    .row-grid{
+        flex-direction: column;
     }
 
-    
-    
+    .main__left{
+        width: 75%;
+    }
+
+    .main__right{
+        width: 23%;
+    }
 }
